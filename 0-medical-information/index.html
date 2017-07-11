@@ -11,82 +11,30 @@
 
 <body>
     <section>
-    <form>
-        <fieldset>
-
+        <form>
             <h1>Emergency Contact and Medical Information</h1>
-            <label for="FLname">Name</label>
-            <input type="text" name="FLname" id="first1" value=""><input type="text" name="FLname" id="last1" value="">
-            <div class="Nlabel"><label for="first1">First</label><label for="last1">Last</label></div>
+            <div class="col-2">
+                <p>Name</p>
+                <input type="text" name="Fname"><input type="text" name="Lname">
 
-            <div class="col_2">
-                <label for="gender">Gender</label>
-                <select name="gender" id="">
-            <option value="">Male</option>
-            <option value="">Female</option>
-        </select>
+                <div class="col-1">
+                    <label for="gender">Gender</label>
+                    <select name="gender">
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
 
-                <label for="Bdate">Date of Birth</label>
-                <input type="date">
+                    <label for="bdate">Date of Birth</label>
+                    <input type="date" name="bdate">
+                </div>
             </div>
 
-        </fieldset>
 
-        <fieldset>
 
-            <h3>Emergency Contact</h3>
+            <div class="col-2" >
 
-            <div class="col_2">
-                <label for="ECname"></label>
-                <input type="text" name="ECname" value=""> <input type="text" name="ECname" value="">
-
-                <label for="rel">Relationship</label>
-                <input type="text">
             </div>
-
-            <label for="Adress">Adress</label>
-
-            <address name="Adress">
-
-                <input type="text" name="strAdress" value=" Adress">
-
-                <input type="text" name="adLine2" value=" Line 2">
-
-                <input type="text" name="city" value="">
-
-                <input type="text" name="loc" value=" / Province / Region">
-
-                <input type="text" name="Zip" value=" / Zip Code">
-
-                <input type="text" name="country" value="">
-
-                <label for="phone">Home Phone</label>
-                <input type="tel" name="phone" value="">
-
-                <label for=" phone2 ">Work Phone</label>
-                <input type="tel " name="phone" value="" </address>
-
-                <h3>Medical Information</h3>
-
-                <label for="pref">Hospital / Clinic Preference</label>
-                <input type="text" name="pref" value="">
-
-                <label for="insComp">Insurance Company</label>
-                <input type="text" name="insComp" value="" <label for="plNum">Policy Number</label>
-                <input type="text" name="plNum" value="">
-
-                <label for=" phyNam ">Physician's Number</label>
-                <input type="text " name="phyNam " value="" <label for="phyNum">Phone Number</label>
-                <input type="text" name="phyNum" value="">
-
-                <label for=" cond ">Allergies / Special Health Considerations
-        <textarea name="cond " rows="5 " cols="5 "></textarea>
-        </label>
-
-
-                <button type="submit ">Submit</button>
-        </fieldset>
-    </form>
+        </form>
     </section>
 </body>
 
