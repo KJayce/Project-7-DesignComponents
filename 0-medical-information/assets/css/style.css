@@ -1,4 +1,16 @@
 address {
   display: inline-block; }
 
+.Nlabel {
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.5em; }
+
+.FLname {
+  display: inline-block;
+  width: 6em;
+  position: relative;
+  top: -3em; }
+
 /*# sourceMappingURL=style.css.map */
